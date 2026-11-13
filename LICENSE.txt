@@ -1,0 +1,19 @@
+Copyright (c) 2025 CodingHamme | BenTech Digital Solutions
+
+All rights reserved.
+
+This website project and its source code are provided to the project owner
+(CodingHamme / BenTech Digital Solutions) for use, modification, and deployment
+of the CodingHamme brand website.
+
+You may:
+- Edit, customise, and deploy this website for CodingHamme.
+- Host it on any platform (GitHub Pages, Netlify, Vercel, own server, etc.).
+
+You may not:
+- Redistribute this project as a commercial template under a different brand
+  without permission.
+- Claim official accreditation or examination-provider status that has not
+  been granted to CodingHamme.
+
+Third-party fonts (e.g. Google Fonts – Inter) are subject to their own licences.

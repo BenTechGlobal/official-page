@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CodingHamme courses — cybersecurity, programming, emerging technologies, and certification preparation." />
+  <title>Courses | CodingHamme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo"><span class="logo-icon">CH</span>Coding<span>Hamme</span></a>
+      <nav class="nav">
+        <div class="nav-links">
+          <a href="../index.html#about">About</a>
+          <a href="services.html">Services</a>
+          <a href="courses.html" class="active">Courses</a>
+          <a href="../index.html#resources">Resources</a>
+          <a href="../index.html#contact">Contact</a>
+        </div>
+        <div class="nav-cta"><a href="../index.html#contact" class="btn btn-primary btn-sm">Enquire</a></div>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <nav class="mobile-nav">
+    <a href="../index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="../index.html#resources">Resources</a>
+    <a href="../index.html#contact">Contact</a>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">Courses</span>
+      <h1>Technology Courses & Pathways</h1>
+      <p class="lead" style="margin:1rem auto 0;">Structured learning in cybersecurity, programming, and emerging tech.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="service-category">
+        <h3>🛡️ Cybersecurity</h3>
+        <div class="service-tags" id="course-cyber"></div>
+      </div>
+      <div class="service-category">
+        <h3>💻 Programming & Software Development</h3>
+        <div class="service-tags" id="course-prog"></div>
+      </div>
+      <div class="service-category">
+        <h3>🤖 Emerging Technologies</h3>
+        <div class="service-tags" id="course-emerging"></div>
+      </div>
+      <div class="grid-3 mt-2">
+        <div class="card">
+          <h3>Performance-Based Exams</h3>
+          <p>CCNA, CompTIA Network+, Security+, and other practical IT certification preparation.</p>
+        </div>
+        <div class="card">
+          <h3>Hands-on Cybersecurity</h3>
+          <p>OSCP, OSCP+, CPENT and similar practical cybersecurity certification guidance.</p>
+        </div>
+        <div class="card">
+          <h3>Academic & Promotional</h3>
+          <p>IELTS, TOEFL, JAMB, WAEC, NECO, and institutional promotional exam support.</p>
+        </div>
+      </div>
+      <p class="text-center mt-2" style="font-size:0.85rem;color:var(--text-muted);">
+        Preparation guidance only. CodingHamme is not an official examination provider unless stated.
+      </p>
+      <div class="text-center mt-2">
+        <a href="../index.html#contact" class="btn btn-primary">Register Interest</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none;padding-top:0;">
+        <p>&copy; <span id="year"></span> CodingHamme | BenTech Digital Solutions.</p>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+  <script src="../js/config.js"></script>
+  <script src="../js/animations.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>

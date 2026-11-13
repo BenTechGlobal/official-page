@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free learning resources and practice exams from CodingHamme." />
+  <title>Free Resources | CodingHamme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo"><span class="logo-icon">CH</span>Coding<span>Hamme</span></a>
+      <nav class="nav">
+        <div class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="courses.html">Courses</a>
+          <a href="resources.html" class="active">Resources</a>
+          <a href="../index.html#contact">Contact</a>
+        </div>
+        <div class="nav-cta"><a href="../index.html#resources" class="btn btn-primary btn-sm">Practice Quiz</a></div>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <nav class="mobile-nav">
+    <a href="../index.html">Home</a>
+    <a href="resources.html">Resources</a>
+    <a href="../index.html#contact">Contact</a>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">Resources</span>
+      <h1>Free Learning & Practice Resources</h1>
+      <p class="lead" style="margin:1rem auto 0;">Practice exams, quizzes, coding challenges, and revision materials.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="resource-cards">
+        <div class="card">
+          <div class="card-icon">📋</div>
+          <h3>Practice Examinations</h3>
+          <p>Free practice exams and technical quizzes across networking, security, and programming.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🧩</div>
+          <h3>Coding Challenges</h3>
+          <p>Programming exercises to sharpen problem-solving and build practical skills.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📖</div>
+          <h3>Revision Materials</h3>
+          <p>Educational articles, downloadable resources, and certification preparation questions.</p>
+        </div>
+      </div>
+      <div class="text-center mt-2">
+        <a href="#" class="btn btn-primary btn-lg" data-practice-exams>Access Practice Exam Platform →</a>
+        <p class="form-note" style="margin-top:0.75rem;">Configure the real platform URL in js/config.js</p>
+      </div>
+      <div class="text-center mt-2">
+        <a href="../index.html#resources" class="btn btn-secondary">Try the Interactive Quiz Demo on Homepage</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none;padding-top:0;">
+        <p>&copy; <span id="year"></span> CodingHamme | BenTech Digital Solutions.</p>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+  <script src="../js/config.js"></script>
+  <script src="../js/animations.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
